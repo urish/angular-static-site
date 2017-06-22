@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node fuse",
+    "build": "tsc & node dist/build.js"
+  },
   "dependencies": {
     "@angular/animations": "^4.2.3",
     "@angular/common": "^4.2.3",
@@ -17,7 +21,6 @@
     "zone.js": "^0.8.12"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^4.2.3",
     "fuse-box": "^2.1.0",
     "typescript": "^2.3.4"
   }

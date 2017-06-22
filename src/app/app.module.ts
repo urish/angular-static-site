@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
     declarations: [AppComponent],
-    imports: [BrowserModule],
+    imports: [BrowserModule.withServerTransition({ appId: 'universal-app' })],
     bootstrap: [AppComponent]
 })
 export class AppModule {

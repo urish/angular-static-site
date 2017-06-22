@@ -14,14 +14,6 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/compiler-cli@^4.2.3":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-4.2.3.tgz#33aa3fbf4d9879cc142a3ecce46996bec840c029"
-  dependencies:
-    "@angular/tsc-wrapped" "4.2.3"
-    minimist "^1.2.0"
-    reflect-metadata "^0.1.2"
-
 "@angular/compiler@^4.2.3":
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-4.2.3.tgz#e9cded47994cf4adb7522d778c46b1f7c5263302"
@@ -59,12 +51,6 @@
     parse5 "^3.0.1"
     tslib "^1.7.1"
     xhr2 "^0.1.4"
-
-"@angular/tsc-wrapped@4.2.3":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.2.3.tgz#1983e65d9ca96395dd52a0a904acfe8ac8e5724d"
-  dependencies:
-    tsickle "^0.21.0"
 
 "@types/node@^6.0.46":
   version "6.0.78"
@@ -1386,10 +1372,6 @@ realm-utils@^1.0.8:
     app-root-path "^1.3.0"
     mkdirp "^0.5.1"
 
-reflect-metadata@^0.1.2:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.10.tgz#b4f83704416acad89988c9b15635d47e03b9344a"
-
 regenerator-runtime@^0.10.0:
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
@@ -1544,12 +1526,6 @@ sntp@1.x.x:
   dependencies:
     hoek "2.x.x"
 
-source-map-support@^0.4.2:
-  version "0.4.15"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.15.tgz#03202df65c06d2bd8c7ec2362a193056fef8d3b1"
-  dependencies:
-    source-map "^0.5.6"
-
 source-map@^0.5.1, source-map@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.6.tgz#75ce38f52bf0733c5a7f0c118d81334a2bb5f412"
@@ -1663,15 +1639,6 @@ tough-cookie@~2.3.0:
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.2.tgz#f081f76e4c85720e6c37a5faced737150d84072a"
   dependencies:
     punycode "^1.4.1"
-
-tsickle@^0.21.0:
-  version "0.21.6"
-  resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.21.6.tgz#53b01b979c5c13fdb13afb3fb958177e5991588d"
-  dependencies:
-    minimist "^1.2.0"
-    mkdirp "^0.5.1"
-    source-map "^0.5.6"
-    source-map-support "^0.4.2"
 
 tslib@^1.7.1:
   version "1.7.1"
