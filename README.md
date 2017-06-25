@@ -2,6 +2,8 @@
 
 Code from my [AngularUP](https://angular-up.com) talk: Building High-Performance Static Web Sites with Angular
 
+[Talk slides](https://goo.gl/PBb8Un)
+
 ## Running
 
   git clone https://github.com/urish/angularup-static-site
