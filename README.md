@@ -1,15 +1,17 @@
-# Angularup-static-site
+# angular-static-site
 
-Code from my [AngularUP](https://angular-up.com) and [AngularDevSummit](https://angulardevsummit.com) talk: Building High-Performance Static Web Sites with Angular
+Minimal setup for Angular + FuseBox + Universal featuring Build Time Rendering.
 
-[Talk slides](https://goo.gl/tTviGS)
+This is the demo from my "Building High-Performance Static Web Sites with Angular" talk. You can [check out the slides](https://goo.gl/skfF5Z).
 
 ## Running
 
-  git clone https://github.com/urish/angular-static-site
-  yarn 
-  yarn run build
-  yarn start
+    git clone https://github.com/urish/angular-static-site
+    yarn 
+    yarn run build
+    yarn start
+
+Then go to http://localhost:4444/
 
 ## Deploying
 
