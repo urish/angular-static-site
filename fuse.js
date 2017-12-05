@@ -1,12 +1,11 @@
-const { FuseBox, TypeScriptHelpers } = require('fuse-box');
+const { FuseBox } = require('fuse-box');
 
 const fuse = FuseBox.init({
 	homeDir: 'src/',
 	output: 'dist/$name.js',
-	plugins: [ TypeScriptHelpers() ]
 });
 
-fuse.dev({ port: 4445 });
+fuse.dev();
 
 fuse.bundle('vendor')
 	.hmr()
