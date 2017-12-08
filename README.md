@@ -2,7 +2,7 @@
 
 Minimal setup for Angular + FuseBox + Universal featuring Build Time Rendering.
 
-This is the demo from my "Building High-Performance Static Web Sites with Angular" talk. You can [check out the slides](https://goo.gl/skfF5Z).
+This is the demo from my "[Building High-Performance Static Web Sites with Angular](https://goo.gl/skfF5Z)" talk.
 
 ## Running
 
